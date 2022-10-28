@@ -1,0 +1,219 @@
+html{
+    scroll-behavior: smooth;
+  }
+  body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Rubik, 'Times New Roman', Times, serif;
+    
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .section-one{
+    position:relative;
+    background: linear-gradient(to bottom, #33cc33 0%, #ffffff 100%);
+    border: 5px solid yellow;
+    min-height: 100vh;
+  }
+
+  
+
+  .section-one h1{
+    text-align: center;
+    
+  }
+
+  .profile-picture{
+    border: 10px solid green;
+    position: relative;
+    
+  
+  } 
+
+  .profile-picture img{
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-name: spin;
+
+  }
+
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+  .profile-picture img{
+    border: 10px solid white;
+    border-radius: 150px;
+
+  }
+
+
+  .center {
+    
+    
+    position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
+  z-index: 1;
+  }
+
+  .center-me{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+.contact{
+
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+  justify-content: center;  
+}
+
+.contact li{
+    display: inline-block;
+     padding: 10px 20px; 
+    
+    
+    
+}
+
+.contact li img{
+  width:30px;
+  height: 30px;
+  
+}
+
+
+
+.section-two{
+    position:relative;
+    background: linear-gradient(to bottom, #ffffff 0%, #33cc33 100%);
+    border: 5px solid yellow;
+    min-height: 100vh;
+  }
+
+  .section-two h2{
+    text-align: center;
+    
+  }
+
+ .portfolio a{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+     
+    
+  } 
+
+  .link-one span{
+    position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+    
+  }
+
+
+  .portfolio span {
+color: green;
+background-color: blue;
+margin: 15%;
+
+}
+
+.portfolio h3{
+    position:relative;
+    top:100px;
+    overflow: hidden;
+    white-space: nowrap;    
+}
+
+  .portfolio-one{
+margin: 40px;
+height:300px;
+border: 5px solid black;
+background: url("bakgrund.jpg") no-repeat center;
+background-size: cover;
+background-color: #cccccc;
+position: relative;
+
+}
+
+.portfolio-two{
+    margin: 40px;
+    height:300px;
+    border: 5px solid black;
+    background: url("bakgrund.jpg") no-repeat center;
+    background-size: cover;
+    background-color: #cccccc;
+    position: relative;
+  }
+
+.portfolio-three{
+    margin: 40px;
+    height:300px;
+    border: 5px solid black;
+    background: url("bakgrund.jpg") no-repeat center;
+    background-size: cover;
+    background-color: #cccccc;
+    position: relative;
+  } 
+
+  .portfolio-four{
+      margin: 40px;
+      height:300px;
+      border: 5px solid black;
+      background: url("bakgrund.jpg") no-repeat center;
+      background-size: cover;
+      background-color: #cccccc;
+      position: relative;
+    } 
+
+    .portfolio-one:hover{
+      opacity: 60%;
+      border-color: white;
+      transition: all 1s;
+      box-shadow: 0 0 20px 20px #000000;
+    }
+
+    .portfolio-two:hover{
+      opacity: 60%;
+      border-color: white;
+      transition: all 1s;
+      box-shadow: 0 0 20px 20px #000000;
+    }
+    .portfolio-three:hover{
+      opacity: 60%;
+      border-color: white;
+      transition: all 1s;
+      box-shadow: 0 0 20px 20px #000000;
+    }
+    .portfolio-four:hover{
+      opacity: 60%;
+      border-color: white;
+      transition: all 1s;
+      box-shadow: 0 0 20px 20px #000000;
+    }
+.box{
+  transition: all 1s;
+}
